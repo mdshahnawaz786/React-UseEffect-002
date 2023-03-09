@@ -1,0 +1,11 @@
+.App {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  overflow-x: hidden;
+    /* background: url(https://thumbs.dreamstime.com/b/colourful-various-herbs-spices-cooking-dark-background-herbs-spices-cooking-dark-background-113655482.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    gap: 10px;
+    }

@@ -1,0 +1,58 @@
+
+.container{
+    width: 100%;
+    /* background: url(https://thumbs.dreamstime.com/b/colourful-various-herbs-spices-cooking-dark-background-herbs-spices-cooking-dark-background-113655482.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.movieContainer{
+    height: 500px;
+    width: 300px;
+   padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+  }
+
+  .titleBox{
+    height: 20%;
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    color: #2c2e37;
+  }
+
+  .posterContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid yellow; */
+  }
+
+  .posterContainer img {
+    height: 100%;
+    width: 90%;
+  }
+
+  .yearContainer{
+    height: 10%;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2c2e37;
+  }
