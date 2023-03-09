@@ -22,7 +22,7 @@ const App = () => {
 
 
   async function fetchApi(searchInput){
-    const fetchedApi = await fetch(`http://www.omdbapi.com/?s=${searchInput}&apikey=aac381e6`)
+    const fetchedApi = await fetch(`https://www.omdbapi.com/?s=${searchInput}&apikey=aac381e6`)
     const toText = await fetchedApi.text();
     const toJson = JSON.parse(toText)
     console.log(toJson);
